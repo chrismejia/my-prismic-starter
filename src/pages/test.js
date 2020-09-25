@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const TestPage = () => (
   <Layout>
     <SEO title="Test" />
-    <main className="container is-fluid">
+    <section className="container spaced-page">
       <div className="columns">
         <div className="column has-background-primary is-four-fifths">
           <div className="box">is-four-fifths</div>
@@ -217,7 +217,7 @@ const TestPage = () => (
           </div>
         </div>
       </div>
-    </main>
+    </section>
   </Layout>
 )
 

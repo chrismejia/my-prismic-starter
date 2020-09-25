@@ -24,10 +24,9 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <main className="has-navbar-fixed-top">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-
-      <main>{children}</main>
+      {children}
       <footer
         style={{
           marginTop: `2rem`,
@@ -37,7 +36,7 @@ const Layout = ({ children }) => {
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
-    </>
+    </main>
   )
 }
 
