@@ -12,11 +12,12 @@ const Header = ({ siteTitle }) => (
       <Link to="/" className="navbar-item">
         Christian
       </Link>
-      {/* <a className="navbar-item" href="https://bulma.io">
+      {/* <a href="#" className="navbar-item" href="https://bulma.io">
       <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
     </a> */}
 
       <a
+        href="#"
         role="button"
         className="navbar-burger burger"
         aria-label="menu"
@@ -33,27 +34,43 @@ const Header = ({ siteTitle }) => (
       <div className="navbar-start" />
 
       <div className="navbar-end">
-        <a className="navbar-item">Home</a>
+        <a href="#" className="navbar-item">
+          Home
+        </a>
 
-        <a className="navbar-item">Documentation</a>
+        <a href="#" className="navbar-item">
+          Documentation
+        </a>
 
         <div className="navbar-item has-dropdown is-hoverable">
-          <a className="navbar-link">More</a>
+          <a href="#" className="navbar-link">
+            More
+          </a>
 
           <div className="navbar-dropdown">
-            <a className="navbar-item">About</a>
-            <a className="navbar-item">Jobs</a>
-            <a className="navbar-item">Contact</a>
+            <a href="#" className="navbar-item">
+              About
+            </a>
+            <a href="#" className="navbar-item">
+              Jobs
+            </a>
+            <a href="#" className="navbar-item">
+              Contact
+            </a>
             <hr className="navbar-divider" />
-            <a className="navbar-item">Report an issue</a>
+            <a href="#" className="navbar-item">
+              Report an issue
+            </a>
           </div>
         </div>
         <div className="navbar-item">
           <div className="buttons">
-            <a className="button is-info">
+            <a href="#" className="button is-info">
               <strong>Sign up</strong>
             </a>
-            <a className="button is-light">Log in</a>
+            <a href="#" className="button is-light">
+              Log in
+            </a>
           </div>
         </div>
       </div>

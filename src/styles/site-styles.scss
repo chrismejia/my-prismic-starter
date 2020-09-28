@@ -2,6 +2,9 @@
   font-family: "Rock Salt", cursive;
 }
 
+#halfmoon {
+  font-family: "Rock Salt", cursive;
+}
 section {
   &.full-height {
     height: calc(100vh - 5rem);
@@ -10,10 +13,6 @@ section {
   &#intro {
     margin-top: 5rem;
     background-color: #3f3f5e;
-  }
-
-  &#last-job {
-    background-color: #;
   }
 
   &.spaced-page {
