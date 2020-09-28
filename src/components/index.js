@@ -1,0 +1,6 @@
+export { default as Header } from "./header"
+export { default as Image } from "./image"
+export { default as Intro } from "./Intro"
+export { default as LastJob } from "./LastJob"
+export { default as Layout } from "./layout"
+export { default as SEO } from "./seo"

@@ -1,14 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import { Intro, Layout, SEO, LastJob } from "../components"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="container spaced-page">
+    <Intro />
+    <LastJob />
+    {/* <section className="container spaced-page">
       <div className="columns">
         <div className="column has-background-primary is-three-quarters">
           <div className="box">is-three-quarters</div>
@@ -21,7 +20,7 @@ const IndexPage = () => (
       </div>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/test/">Go to test</Link> <br />
-    </section>
+    </section> */}
   </Layout>
 )
 

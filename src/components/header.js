@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
   >
     <div className="navbar-brand">
       <Link to="/" className="navbar-item">
-        {siteTitle}
+        Christian
       </Link>
       {/* <a className="navbar-item" href="https://bulma.io">
       <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
@@ -30,7 +30,9 @@ const Header = ({ siteTitle }) => (
     </div>
 
     <div id="navbarBasicExample" className="navbar-menu">
-      <div className="navbar-start">
+      <div className="navbar-start" />
+
+      <div className="navbar-end">
         <a className="navbar-item">Home</a>
 
         <a className="navbar-item">Documentation</a>
@@ -46,9 +48,6 @@ const Header = ({ siteTitle }) => (
             <a className="navbar-item">Report an issue</a>
           </div>
         </div>
-      </div>
-
-      <div className="navbar-end">
         <div className="navbar-item">
           <div className="buttons">
             <a className="button is-info">

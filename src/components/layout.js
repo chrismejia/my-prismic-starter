@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
     <main className="has-navbar-fixed-top">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       {children}
-      <footer
+      {/* <footer
         style={{
           marginTop: `2rem`,
         }}
@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
+      </footer> */}
     </main>
   )
 }
